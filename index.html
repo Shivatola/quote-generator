@@ -9,11 +9,29 @@
     crossorigin="anonymous" 
     referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-    <link rel="icon" type="image/png" href="files/car.jpg">
+    <title>Quote generator</title>
+    <link rel="icon" type="image/png" href="files/quote.png">
 </head>
 <body>
-    <h2>Hello World!!!!</h2>
+    <div class="quote-container" id="quote-container">
+        <!-- Quote -->
+        <div class="quote-text">
+            <i class="fas fa-quote-left">
+                <span id="quote">It takes 20 years to build a reputation and five minutes to ruin it. If you think about that, you’ll do things differently</span>
+            </i>
+        </div>
+        <!-- Quote author -->
+        <div class="quote-author">
+            <span id="author">Warren Buffet</span>
+        </div>
+        <!-- Buttons -->
+        <div class="button-container">
+            <button class="twitter-button" id="twitter-button" title="Tweet This!">
+                <i class="fab fa-twitter"></i>
+            </button>
+            <button id="new-quote">New Quote</button>
+        </div>
+    </div>
     <!-- For scripting purpose -->
     <script src="script.js"></script>
 </body>
